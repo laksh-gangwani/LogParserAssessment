@@ -21,6 +21,7 @@ This Python script parses AWS VPC Flow Logs and tags each entry based on a looku
 
 ```
 python flow_log_parser.py <lookup_file> <log_file> <output_file>
+python flow_log_parser.py lookup_table.csv flow_logs.txt output_results.csv
 ```
 
 - `<lookup_file>`: Path to the CSV file containing the lookup table
